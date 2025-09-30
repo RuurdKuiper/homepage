@@ -4,10 +4,7 @@ title: Publications
 ---
 
 # Publications
-
 [Google Scholar](https://scholar.google.com/citations?user=E968uWQAAAAJ&hl=nl).
-
-# Publications
 
 ## 2025
 
