@@ -33,5 +33,3 @@ title: Publications
 
 - **A Finite Element Method Approach to Brace Treatment for the Scoliotic Spine**, *2017*
 - **A Finite Element Approach to Brace Treatment for the Scoliotic Spine**, *2017*
-
-
