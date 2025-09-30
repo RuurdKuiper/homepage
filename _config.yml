@@ -1,7 +1,14 @@
 title: Ruurd's Academic Homepage
 theme: jekyll-theme-minimal
-url: "https://yourusername.github.io"
-baseurl: "" 
+url: "https://ruurdkuiper.github.io"
+baseurl: ""
+
+plugins:
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  source: _bibliography/references.bib
 
 # Simple navigation menu
 defaults:
@@ -10,3 +17,4 @@ defaults:
     values:
       layout: default
       author: Ruurd
+
