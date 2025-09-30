@@ -1,1 +1,12 @@
+title: Ruurd's Academic Homepage
 theme: jekyll-theme-minimal
+url: "https://yourusername.github.io"
+baseurl: "" 
+
+# Simple navigation menu
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      author: Ruurd
