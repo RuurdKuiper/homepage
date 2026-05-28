@@ -1,7 +1,7 @@
 title: Ruurd's Academic Homepage
 theme: jekyll-theme-minimal
-url: "https://ruurdkuiper.github.io"
-baseurl: "/homepage"
+url: "https://ruurdkuiper.com"
+baseurl: ""
 
 defaults:
   - scope:
