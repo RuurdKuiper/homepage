@@ -3,6 +3,20 @@ theme: jekyll-theme-minimal
 url: "https://ruurdkuiper.com"
 baseurl: ""
 
+nav:
+  - title: Home
+    url: /
+  - title: Papers
+    url: /papers.html
+  - title: Presentations
+    url: /presentations.html
+  - title: Teaching
+    url: /teaching.html
+  - title: Projects
+    url: /projects.html
+  - title: CV
+    url: /Academic%20Cv%20%E2%80%94%20Ruurd%20Kuiper.pdf
+
 defaults:
   - scope:
       path: ""

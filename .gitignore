@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Jekyll build/cache artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler local config
+.bundle/
+
+# Editor/OS temp files
+*.swp
+*.swo
+*~
+
+# Local environment files (if ever used)
+.env
+.env.*
+!.env.example

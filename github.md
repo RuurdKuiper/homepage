@@ -3,20 +3,14 @@ layout: default
 title: GitHub Projects
 ---
 
-# Huggingface Spaces
+# Projects
 
-- [Tini-LAD: LoRA-Adapted Diffusion](https://huggingface.co/spaces/Ruurd/tini-lad) – User-friendly implementation of diffusion-based text generation
-- [LAD: LoRA-Adapted Diffusion](https://huggingface.co/spaces/Ruurd/lad) – Extended implementation of diffusion-based text generation model with many hyperparameters
+The active project overview has moved to the [Projects](projects.html) page.
 
-# GitHub Projects
+## External Profiles
 
-- [LAD: LoRA-Adapted Diffusion](https://ruurdkuiper.github.io/tini-lad/) – description
-- [Radiology LLM](https://github.com/RuurdKuiper/radiology-llm) – Code for radiology LLM workflow
-
-# Streamlit demo's
-
-- [Auto-INSPECT-SR](https://auto-inspect-sr.streamlit.app/) – Automatic trustworthiness check for randomized controlled trials using LLM prompting
-- [Radiology LLM](https://radiology-llm.streamlit.app/) – Demo for a showcase about the use of LLMs as orchestrators for radiology workflows
+- [GitHub Repositories](https://github.com/RuurdKuiper?tab=repositories)
+- [Hugging Face Spaces](https://huggingface.co/Ruurd/spaces)
 
 
 
