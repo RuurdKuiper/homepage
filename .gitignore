@@ -9,6 +9,7 @@ _site/
 
 # Bundler local config
 .bundle/
+vendor/
 
 # Editor/OS temp files
 *.swp

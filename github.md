@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: single
 title: GitHub Projects
+author_profile: true
 ---
 
 # Projects
