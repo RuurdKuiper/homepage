@@ -6,7 +6,7 @@ redirect_from:
   - /talks/
 ---
 
-Selected talks, invited lectures, workshops, and course materials. Each thumbnail is generated from the first page of the uploaded PDF.
+Selected talks, invited lectures, workshops, and course materials.
 
 ## Large Language Models in Healthcare Course
 
@@ -135,7 +135,7 @@ Selected talks, invited lectures, workshops, and course materials. Each thumbnai
     </div>
     <div class="presentation-body">
       <div class="presentation-header">
-        <h3>Large Language Models for Research in Datascience &amp; Biostatistics</h3>
+        <h3>LLMs for Research in Datascience &amp; Biostatistics</h3>
         <span class="presentation-badge presentation-badge--talk">Invited Talk</span>
       </div>
       <p class="presentation-summary">A presentation on how large language models can support research workflows in data science and biostatistics, which includes three practicals - academic writing, automated data analysis, and free to structured text.</p>
