@@ -138,7 +138,7 @@ Selected talks, invited lectures, workshops, and course materials. Each thumbnai
         <h3>Large Language Models for Research in Datascience &amp; Biostatistics</h3>
         <span class="presentation-badge presentation-badge--talk">Invited Talk</span>
       </div>
-      <p class="presentation-summary">A presentation on how large language models can support research workflows in data science and biostatistics, with a focus on research practice rather than hype.</p>
+      <p class="presentation-summary">A presentation on how large language models can support research workflows in data science and biostatistics, which includes three practicals - academic writing, automated data analysis, and free to structured text.</p>
       <div class="presentation-links">
         <a class="btn btn--small" href="/presentations/Presentation%20-%20Heidag%20-%20LLMs%20in%20datascience%20and%20biostatistics%20research.pdf">Slides (PDF)</a>
       </div>

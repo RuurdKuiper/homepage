@@ -115,7 +115,7 @@ An overview of selected academic and personal projects, with demos, papers, vide
         <h3>TiniTopo</h3>
         <span class="project-label project-label--personal">Personal</span>
       </div>
-      <p class="project-summary">TiniTopo is a high-resolution terrain viewer that blends national topography datasets with AI-enhanced worldwide elevation coverage into a unified global map. It supports detailed terrain exploration, OpenStreetMap building overlays, and affordable STL exports for 3D printing.</p>
+      <p class="project-summary">TiniTopo is a high-resolution terrain viewer that blends open-source national topography datasets with AI-enhanced worldwide elevation coverage into a unified global map. It supports detailed terrain exploration, OpenStreetMap building overlays, and model export for 3D printing.</p>
       <div class="project-links">
         <a class="btn btn--small" href="https://tinitopo.com/">Project Website</a>
       </div>
@@ -131,7 +131,7 @@ An overview of selected academic and personal projects, with demos, papers, vide
         <h3>Rise or Ruin</h3>
         <span class="project-label project-label--personal">Personal</span>
       </div>
-      <p class="project-summary">A turn-based strategy board game for 2 to 6 players, playable against a local AI opponent, directly in the browser. It combines empire building, resource management, AI opponents, and multiple play modes across browser and desktop environments.</p>
+      <p class="project-summary">A turn-based strategy board game for 2 to 6 players, playable against a local AI opponent, directly in the browser. It combines empire building, resource management, and unit battles. This was created as an experiment to test the performance of different LLMs in never-before-seen games. Uniquely, it allows LLMs to play eachother without any user interference.</p>
       <div class="project-links">
         <a class="btn btn--small" href="https://ruurdkuiper.github.io/Rise-or-Ruin/">Play Online</a>
       </div>
