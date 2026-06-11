@@ -416,7 +416,7 @@
   .mobile-nav-bar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 1rem;
   }
 
@@ -427,8 +427,16 @@
     text-decoration: none;
   }
 
+  .theme-toggle--mobile {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    flex: 0 0 auto;
+  }
+
   .mobile-nav {
     position: relative;
+    flex: 0 0 auto;
   }
 
   .mobile-nav[open] {
@@ -577,15 +585,6 @@
   background-color: #fff;
   border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
-
-  .nav__title {
-    color: #fff;
-    font-size: $type-size-6;
-    background: var(--global-base-color);
-    border-top-left-radius: $border-radius;
-    border-top-right-radius: $border-radius;
-  }
 }
 
 .toc__menu {
