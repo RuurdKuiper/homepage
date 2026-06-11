@@ -313,6 +313,12 @@
       }
     }
 
+    > .greedy-nav__toggle:focus + .visible-links,
+    > .greedy-nav__toggle:focus-visible + .visible-links,
+    &:focus-within .visible-links {
+      display: block;
+    }
+
     &.is-open {
       .visible-links {
         display: block;
