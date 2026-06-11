@@ -1,0 +1,6 @@
+/* DEPRECATED: This file has been split into modular theme system.
+   Use base.css + themes/light.css instead.
+   This file is kept for backward compatibility. */
+
+@import url('./base.css');
+@import url('./themes/light.css');

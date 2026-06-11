@@ -60,6 +60,7 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - README.md
   - tmp
   - vendor
 
