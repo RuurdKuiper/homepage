@@ -389,6 +389,125 @@
   }
 }
 
+.mobile-nav-bar {
+  display: none;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  border: 0;
+  background: transparent;
+  color: var(--global-masthead-link-color);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--global-masthead-link-color-hover);
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .mobile-nav-bar__title {
+    margin-right: auto;
+    color: var(--global-masthead-link-color);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .mobile-nav {
+    position: relative;
+  }
+
+  .mobile-nav[open] {
+    .mobile-nav__toggle .navicon {
+      background: transparent;
+
+      &:before,
+      &:after {
+        top: 0;
+      }
+
+      &:before {
+        transform: rotate3d(0, 0, 1, 45deg);
+      }
+
+      &:after {
+        transform: rotate3d(0, 0, 1, -45deg);
+      }
+    }
+  }
+
+  .mobile-nav__toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    padding: 0 0.35rem;
+    list-style: none;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+
+  .mobile-nav__links {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    width: min(18rem, calc(100vw - 2rem));
+    margin: 0;
+    padding: 0.35rem 0;
+    list-style: none;
+    border: 1px solid var(--global-border-color);
+    border-radius: $border-radius;
+    background: var(--global-bg-color);
+    box-shadow: 0 0 10px rgba(#000, 0.12);
+    z-index: 99;
+  }
+
+  .mobile-nav__item {
+    display: block;
+    border-bottom: 1px solid var(--global-border-color);
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    a,
+    .theme-toggle {
+      width: 100%;
+      padding: 0.85rem 1rem;
+      justify-content: flex-start;
+      text-align: left;
+      text-decoration: none;
+      color: var(--global-masthead-link-color);
+    }
+  }
+}
+
+@media screen and (min-width: 926px) {
+  .mobile-nav-bar {
+    display: none;
+  }
+}
+
 
 /*
    Navigation list
