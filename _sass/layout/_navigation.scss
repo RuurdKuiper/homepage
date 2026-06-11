@@ -276,6 +276,11 @@
       justify-content: center;
     }
 
+    > .greedy-nav__toggle.hidden {
+      display: flex;
+      visibility: visible;
+    }
+
     .visible-links {
       display: none;
       position: absolute;
