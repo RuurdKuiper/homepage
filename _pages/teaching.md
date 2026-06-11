@@ -14,12 +14,7 @@ My teaching focuses on practical AI methods for healthcare, with emphasis on res
 - Missing Data practical sessions, 2024
 - Big Data course, LLM practical, 2025
 - Machine Learning in Healthcare, 2025
-
-## Teaching style
-
-- Hands-on assignments with realistic clinical data scenarios
-- Reproducible workflows and transparent model evaluation
-- Communication across clinical and technical disciplines
+- Machine Learning: Applications in Medicine, 2026
 
 ## Student supervision
 

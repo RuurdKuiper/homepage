@@ -24,6 +24,7 @@ I am an Assistant Professor in AI and NLP for Healthcare at UMC Utrecht. My rese
 - Clinical validation of LLM-assisted workflows
 - AI for medical documentation and care process support
 - Methods at the intersection of NLP and medical image analysis
+- Development of novel LLM architectures and paradigms
 
 ## Profiles
 
