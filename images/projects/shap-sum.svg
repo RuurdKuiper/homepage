@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">SHAP Sum project illustration</title>
+  <desc id="desc">Model explanation themed illustration for the SHAP Sum project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#ffedd5"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#bg)"/>
+  <rect x="78" y="78" width="86" height="190" rx="20" fill="#fb923c"/>
+  <rect x="192" y="124" width="86" height="144" rx="20" fill="#fdba74"/>
+  <rect x="306" y="96" width="86" height="172" rx="20" fill="#f97316"/>
+  <rect x="420" y="150" width="86" height="118" rx="20" fill="#fed7aa" stroke="#f97316" stroke-width="4"/>
+  <text x="76" y="62" fill="#9a3412" font-size="40" font-family="Arial, sans-serif" font-weight="700">SHAP Sum</text>
+  <text x="76" y="320" fill="#7c2d12" font-size="22" font-family="Arial, sans-serif">Interpretability and summarization</text>
+</svg>

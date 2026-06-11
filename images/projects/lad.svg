@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">LAD project illustration</title>
+  <desc id="desc">Abstract visualization for the LAD project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)" rx="28"/>
+  <circle cx="160" cy="180" r="72" fill="#60a5fa" opacity="0.35"/>
+  <circle cx="255" cy="145" r="42" fill="#93c5fd" opacity="0.4"/>
+  <path d="M130 235c35-55 95-92 158-92 58 0 112 26 154 73" fill="none" stroke="#e0f2fe" stroke-width="10" stroke-linecap="round"/>
+  <text x="62" y="82" fill="#f8fafc" font-size="44" font-family="Arial, sans-serif" font-weight="700">LAD</text>
+  <text x="62" y="118" fill="#bfdbfe" font-size="22" font-family="Arial, sans-serif">Diffusion-style language modeling</text>
+</svg>

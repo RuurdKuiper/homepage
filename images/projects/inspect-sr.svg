@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Inspect-SR project illustration</title>
+  <desc id="desc">Checklist-inspired illustration for the Inspect-SR project.</desc>
+  <rect width="640" height="360" rx="28" fill="#f8fafc"/>
+  <rect x="64" y="52" width="512" height="256" rx="18" fill="#e2e8f0" stroke="#94a3b8" stroke-width="4"/>
+  <rect x="110" y="100" width="28" height="28" rx="6" fill="#16a34a"/>
+  <rect x="156" y="104" width="272" height="18" rx="9" fill="#334155" opacity="0.85"/>
+  <rect x="110" y="154" width="28" height="28" rx="6" fill="#16a34a"/>
+  <rect x="156" y="158" width="314" height="18" rx="9" fill="#334155" opacity="0.7"/>
+  <rect x="110" y="208" width="28" height="28" rx="6" fill="#f59e0b"/>
+  <rect x="156" y="212" width="240" height="18" rx="9" fill="#334155" opacity="0.55"/>
+  <text x="64" y="72" fill="#0f172a" font-size="40" font-family="Arial, sans-serif" font-weight="700">Inspect-SR</text>
+  <text x="64" y="332" fill="#475569" font-size="22" font-family="Arial, sans-serif">Automated reporting quality checks</text>
+</svg>

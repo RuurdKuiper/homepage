@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Rise or Ruin project illustration</title>
+  <desc id="desc">Strategy board game themed illustration for Rise or Ruin.</desc>
+  <rect width="640" height="360" rx="28" fill="#111827"/>
+  <rect x="88" y="72" width="464" height="216" rx="18" fill="#1f2937" stroke="#f59e0b" stroke-width="4"/>
+  <path d="M132 112h376M132 176h376M132 240h376M196 96v176M292 96v176M388 96v176M484 96v176" stroke="#374151" stroke-width="4"/>
+  <circle cx="196" cy="176" r="24" fill="#ef4444"/>
+  <circle cx="388" cy="240" r="24" fill="#60a5fa"/>
+  <path d="M466 104l18 42h-36Z" fill="#fbbf24"/>
+  <text x="88" y="328" fill="#f9fafb" font-size="38" font-family="Arial, sans-serif" font-weight="700">Rise or Ruin</text>
+</svg>

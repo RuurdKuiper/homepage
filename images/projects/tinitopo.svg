@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">TiniTopo project illustration</title>
+  <desc id="desc">Terrain themed illustration for the TiniTopo project.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#sky)"/>
+  <path d="M0 244c78-20 118-54 186-54 56 0 95 14 158 14 66 0 113-44 191-44 50 0 77 16 105 28v172H0Z" fill="#166534"/>
+  <path d="M0 278c76-15 145-35 220-35 58 0 112 24 178 24 68 0 124-22 242-22v115H0Z" fill="#22c55e" opacity="0.78"/>
+  <path d="M198 152l30-28 30 28v74h-60Z" fill="#e5e7eb"/>
+  <path d="M220 178h16v48h-16Z" fill="#94a3b8"/>
+  <text x="48" y="70" fill="#082f49" font-size="42" font-family="Arial, sans-serif" font-weight="700">TiniTopo</text>
+  <text x="48" y="106" fill="#0f172a" font-size="22" font-family="Arial, sans-serif">High-resolution terrain visualization</text>
+</svg>
