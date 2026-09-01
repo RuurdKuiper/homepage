@@ -105,6 +105,28 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+
+  .model-demo {
+    margin: 1em 0 2em;
+    overflow: hidden;
+    border: 1px solid var(--global-border-color);
+    border-radius: $border-radius;
+    background: var(--global-bg-color);
+  }
+
+  .model-demo iframe {
+    display: block;
+    width: 100%;
+    height: 32rem;
+    border: 0;
+  }
+
+  .model-demo__footer {
+    margin: 0;
+    padding: 0.65rem 0.85rem;
+    border-top: 1px solid var(--global-border-color);
+    font-size: $type-size-6;
+  }
 }
 
 .page__hero {

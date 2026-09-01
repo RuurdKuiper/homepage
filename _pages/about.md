@@ -21,6 +21,7 @@ Together with [Robert Bagheri](https://robertab.nl/) I will be hosting the [**"A
 - AI-assisted medical documentation workflows
 - Trustworthy evaluation of healthcare AI
 - Medical image analysis and clinically grounded ML
+- Alternative architectures and generative paradigms for LLMs
 
 ## Background
 
@@ -31,4 +32,18 @@ Together with [Robert Bagheri](https://robertab.nl/) I will be hosting the [**"A
 
 ## Current focus
 
-I work on AI and NLP methods that support clinicians without losing sight of clinical context, methodological rigor, or practical usability. That includes evaluation design, workflow integration, and collaboration across technical and clinical domains.
+I work on AI and NLP methods that support clinicians without losing sight of clinical context, methodological rigor, or practical usability. That includes evaluation design, workflow integration, and collaboration across technical and clinical domains. In the meantime, I also try develop more efficient LLM methods, for example through diffusive generation, which you can try out below!
+
+### Try tini-lad
+
+<div class="model-demo">
+  <iframe
+    src="https://ruurd-tini-lad.hf.space/"
+    title="Interactive tini-lad language model demo"
+    loading="lazy"
+    allow="clipboard-write"
+  ></iframe>
+  <p class="model-demo__footer">
+    The demo may take a moment to wake up. <a href="https://huggingface.co/spaces/Ruurd/tini-lad">Open tini-lad on Hugging Face</a>.
+  </p>
+</div>
