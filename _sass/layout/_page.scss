@@ -34,6 +34,13 @@
   }
 }
 
+.page--demo-sidebar {
+  @include breakpoint($x-large) {
+    // Reduce the normal content column by 25% and reserve that space for the demo.
+    padding-right: 32.41525424%;
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
@@ -100,6 +107,50 @@
     font-size: $type-size-6;
   }
 
+  .about-layout {
+    display: grid;
+    grid-template-areas:
+      "intro"
+      "demo"
+      "content";
+
+    @include breakpoint($x-large) {
+      display: block;
+    }
+  }
+
+  .about-layout__intro {
+    grid-area: intro;
+  }
+
+  .about-layout__content {
+    grid-area: content;
+  }
+
+  .about-layout__demo {
+    grid-area: demo;
+
+    @include breakpoint($x-large) {
+      position: fixed;
+      top: calc(#{$masthead-height} + 2rem);
+      right: 1rem;
+      width: unquote("min(28rem, calc((100vw - #{$x-large}) / 2 + ((#{$x-large} - 2rem) * 0.3241525424 - 1rem)))");
+      max-height: calc(100vh - #{$masthead-height} - 2rem);
+      overflow-y: auto;
+      z-index: 5;
+    }
+  }
+
+  .about-layout__intro,
+  .about-layout__content,
+  .about-layout__demo {
+    min-width: 0;
+  }
+
+  .about-layout__demo > h3 {
+    margin-top: 0;
+  }
+
   /* blockquote citations */
   blockquote + .small {
     margin-top: -1.5em;
@@ -116,9 +167,12 @@
 
   .model-demo iframe {
     display: block;
-    width: 100%;
-    height: 32rem;
+    width: 125%;
+    height: 62.5vh;
+    margin-bottom: -12.5vh;
     border: 0;
+    transform: scale(0.8);
+    transform-origin: top left;
   }
 
   .model-demo__footer {
