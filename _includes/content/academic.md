@@ -4,7 +4,7 @@ My background spans biomedical engineering, medical image analysis, and healthca
 
 ### Assistant Professor AI and NLP — Julius Center, UMC Utrecht | 2024-present
 
-I develop language-model methods for clinical documentation and trustworthy healthcare AI. My work combines research and evaluation with clinical collaboration, teaching, and student supervision.
+I develop and implement language-model methods for trustworthy healthcare AI. My work combines research and validation with clinical collaboration, teaching, and student supervision. I also research and develop novel LLM architectures and paradigms.
 
 ### Senior Data Scientist / Senior Specialist Data Science — Valcon | 2023-2024
 
@@ -12,7 +12,7 @@ I delivered data-science and language-analysis projects for external clients in 
 
 ### Technical Lead — UPlanner / Presurgeo | 2021-2022
 
-In a joint academic-industry role with [Presurgeo](https://www.presurgeo.com/), I translated PhD methods into SkeletonPlanner for automated 3D orthopaedic analysis and surgical planning. I collaborated with clinicians, developers, funders, and investors; the underlying IP was licensed for commercial development, and SkeletonPlanner received FDA clearance in 2026.
+In a joint academic-industry role we started [Presurgeo](https://www.presurgeo.com/) to translate my PhD research into the SkeletonPlanner software for automated 3D orthopaedic analysis and surgical planning. I collaborated with clinicians, developers, funders, and investors; the underlying IP was licensed for commercial development, and SkeletonPlanner received FDA clearance in 2026.
 
 ### PhD Researcher — UMC Utrecht | 2017-2022
 
