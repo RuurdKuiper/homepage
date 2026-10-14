@@ -24,12 +24,13 @@
 }
 
 .project-media {
-  align-self: stretch;
+  align-self: start;
 
   img {
     display: block;
     width: 100%;
     height: auto;
+    margin: 0;
     border-radius: 10px;
     border: 1px solid var(--global-border-color);
     object-fit: cover;

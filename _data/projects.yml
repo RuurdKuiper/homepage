@@ -1,0 +1,161 @@
+---
+- id: byod
+  title: 'BYOD: Build Your Own DLM'
+  category: Academic
+  image: "/images/projects/byod.png"
+  alt: 'BYOD: four language model families adapted for diffusion generation'
+  summary: A preliminary project exploring parameter-efficient conversion of existing
+    autoregressive language models into diffusion language models using LoRA adapters.
+    Try iterative, parallel text generation with conversions of Gemma 2 9B, Llama
+    3.1 8B, Qwen2.5 7B, and Ministral 8B in four interactive demos.
+  featured: true
+  links:
+  - label: Gemma demo
+    url: https://huggingface.co/spaces/Ruurd/byod-gemma-2-9b
+    style: btn--warning
+  - label: Llama demo
+    url: https://huggingface.co/spaces/Ruurd/byod-llama-3.1-8b
+    style: btn--warning
+  - label: Qwen demo
+    url: https://huggingface.co/spaces/Ruurd/byod-qwen2.5-7b
+    style: btn--warning
+  - label: Ministral demo
+    url: https://huggingface.co/spaces/Ruurd/byod-ministral-8b
+    style: btn--warning
+- links:
+  - url: https://ruurdkuiper.github.io/tini-lad/
+    label: Project
+    style: btn--danger
+  - url: https://github.com/RuurdKuiper/tini-lad
+    label: GitHub
+    style: btn--primary
+  - url: https://huggingface.co/spaces/Ruurd/tini-lad
+    label: Demo 1
+    style: btn--warning
+  - url: https://huggingface.co/spaces/Ruurd/lad
+    label: Demo 2
+    style: btn--warning
+  - url: https://www.youtube.com/watch?v=qy8saQXV_LM
+    label: Video
+    style: btn--info
+  - url: https://aclanthology.org/2025.emnlp-demos.8.pdf
+    label: Paper
+    style: btn--success
+  image: "/images/projects/academic/lad.png"
+  alt: A language model chip with a lightweight adapter and tokens becoming clear
+  title: 'LAD: LoRA-Adapted Diffusion'
+  category: Academic
+  summary: LAD is a diffusion style LLM. The project includes code, interactive demos,
+    the EMNLP paper and an explanation video.
+  id: lad
+  featured: false
+- links:
+  - url: https://huggingface.co/spaces/Ruurd/radiolm
+    label: Huggingface Space
+    style: btn--warning
+  - url: https://radiology-llm.streamlit.app/
+    label: Streamlit App
+    style: btn--danger
+  - url: https://github.com/RuurdKuiper/radiology-llm
+    label: GitHub
+    style: btn--primary
+  image: "/images/projects/academic/radiology-llms.png"
+  alt: A chest radiology image beside a speech bubble
+  title: Radiology LLMs
+  category: Academic
+  summary: 'Radiologist''s Companion: a radiology-oriented local LLM interface prototype
+    for clinician-facing workflows.'
+  id: radiology-llms
+  featured: false
+- links:
+  - url: https://shap-sum.streamlit.app/
+    label: Streamlit App
+    style: btn--danger
+  - url: https://link.springer.com/content/pdf/10.1186/s41512-026-00227-w.pdf
+    label: Abstract
+    style: btn--success
+  image: "/images/projects/academic/shap-sum.png"
+  alt: Highlighted summary passages connected to matching attribution bars
+  title: SHAP Sum
+  category: Academic
+  summary: An interactive Streamlit project around an abstract presented at MEMTAB,
+    focused on traceability of LLM summarization based on SHAP.
+  id: shap-sum
+  featured: false
+- links:
+  - url: https://github.com/RuurdKuiper/auto-inspect-sr
+    label: GitHub
+    style: btn--primary
+  - url: https://auto-inspect-sr.streamlit.app/
+    label: Streamlit App
+    style: btn--danger
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12424918/
+    label: Related paper
+    style: btn--success
+  image: "/images/projects/inspect-sr.png"
+  alt: Illustration for the Inspect-SR project
+  title: Auto-INSPECT-SR
+  category: Academic
+  summary: Auto-INSPECT-SR is a demo for automated trustworthiness screening of randomized
+    controlled trials, based on the Inspect-SR tool described in the paper by Wilkinson
+    et al.
+  id: inspect-sr
+  featured: false
+- links:
+  - url: https://github.com/RuurdKuiper/EHR-to-structured
+    label: GitHub
+    style: btn--primary
+  - url: https://ehr-to-structured.streamlit.app/
+    label: Streamlit App
+    style: btn--danger
+  image: "/images/projects/academic/ehr-to-structured.png"
+  alt: A clinical note transformed into a structured data table
+  title: EHR-to-struct
+  category: Academic
+  summary: A demo showing how LLMs can extract structured information from simulated
+    Dutch EHRs, preserve traceability through extracted spans, and map the output
+    into the OMOP common data model.
+  id: ehr-to-structured
+  featured: false
+- links:
+  - url: https://tinitopo.com/
+    label: Project Website
+    style: btn--small
+  image: "/images/projects/tinitopo.png"
+  alt: Illustration for the TiniTopo project
+  title: TiniTopo
+  category: Personal
+  summary: TiniTopo is a high-resolution terrain viewer that blends open-source national
+    topography datasets with AI-enhanced worldwide elevation coverage into a unified
+    global map. It supports detailed terrain exploration, OpenStreetMap building overlays,
+    and model export for 3D printing.
+  id: tinitopo
+  featured: true
+- links:
+  - url: https://ruurdkuiper.github.io/Rise-or-Ruin/
+    label: Play Online
+    style: btn--small
+  image: "/images/projects/rise-or-ruin.png"
+  alt: Illustration for the Rise or Ruin project
+  title: Rise or Ruin
+  category: Personal
+  summary: A turn-based strategy board game for 2 to 6 players, playable against a
+    local AI opponent, directly in the browser. It combines empire building, resource
+    management, and unit battles. This was created as an experiment to test the performance
+    of different LLMs in never-before-seen games. Uniquely, it allows LLMs to play
+    eachother without any user interference.
+  id: rise-or-ruin
+  featured: false
+- links:
+  - url: https://github.com/RuurdKuiper/homie
+    label: GitHub
+    style: btn--primary
+  image: "/images/projects/homie.png"
+  alt: Illustration for the Homie project
+  title: Homie
+  category: Personal
+  summary: Homie is an always-on Raspberry Pi voice assistant for home use. It listens
+    for a wake word, records commands, transcribes speech, generates responses with
+    local or cloud models, and speaks the answer back through connected audio devices.
+  id: homie
+  featured: false

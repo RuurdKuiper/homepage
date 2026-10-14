@@ -11,6 +11,9 @@ main:
   - title: "Home"
     url: /
 
+  - title: "About me"
+    url: /academic.html
+
   - title: "Publications"
     url: /papers.html
 
