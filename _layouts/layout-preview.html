@@ -50,7 +50,7 @@
             <div class="hero-actions"><a class="button" href="?view=projects" data-view="projects">Explore my work <span>↗</span></a><a class="text-link" href="?view=academic" data-view="academic">My background <span>↗</span></a></div>
           </div>
           {% assign avatar_path = site.author.avatar | prepend: '/' %}
-          <figure class="portrait"><img src="{{ avatar_path | relative_url }}" alt="{{ site.author.name | escape }}" fetchpriority="high"><figcaption><span>{{ site.author.name }}</span><span>{{ site.author.employer }} ↗</span></figcaption></figure>
+          <figure class="portrait"><img src="{{ avatar_path | relative_url }}" alt="{{ site.author.name | escape }}" fetchpriority="high"><figcaption><span>{{ site.author.name }}</span><span><a href="{{ site.author.employer_url }}">{{ site.author.employer }} ↗</a></span></figcaption></figure>
           <div class="hero-foot"><span>RESEARCH · METHODS · REAL-WORLD APPLICATIONS</span><a href="#home-about">Discover more ↓</a></div>
         </section>
         {% if page.preview_style == 'dashboard' %}

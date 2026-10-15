@@ -2,9 +2,9 @@ My teaching focuses on practical AI methods for healthcare, with emphasis on res
 
 ## Courses
 
-- Machine Learning: Applications in Medicine, 2026
+- Co-teacher, Machine Learning: Applications in Medicine, 2026 — taught one day of the five-day course.
 - Big Data course, LLM practical, 2025
-- Machine Learning in Healthcare, 2025
+- Co-teacher, Machine Learning in Healthcare, 2025 — taught one day of the five-day course.
 - Missing Data practical sessions, 2024
 - Medische Beeldvormende Technieken, 2019-2021
 

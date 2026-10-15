@@ -10,9 +10,9 @@ I develop and implement language-model methods for trustworthy healthcare AI. My
 
 I delivered data-science and language-analysis projects for external clients in multidisciplinary consultancy teams. This role expanded my work from medical image analysis into applied NLP and AI software delivery.
 
-### Technical Lead — UPlanner / Presurgeo | 2021-2022
+### Co-founder and Technical Lead — UPlanner / Presurgeo | 2022
 
-In a joint academic-industry role we started [Presurgeo](https://www.presurgeo.com/) to translate my PhD research into the SkeletonPlanner software for automated 3D orthopaedic analysis and surgical planning. I collaborated with clinicians, developers, funders, and investors; the underlying IP was licensed for commercial development, and SkeletonPlanner received FDA clearance in 2026.
+In a joint academic-industry role we started [Presurgeo](https://www.presurgeo.com/) to translate my PhD research into the SkeletonPlanner software for automated 3D orthopaedic analysis and surgical planning. I collaborated with clinicians, developers, funders, and investors; the underlying IP was licensed for commercial development.
 
 ### PhD Researcher — UMC Utrecht | 2017-2022
 
