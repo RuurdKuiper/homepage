@@ -49,3 +49,26 @@ Optional (enable LiveReload):
 ```bash
 USE_LIVERELOAD=1 LIVERELOAD_PORT=35740 ./run-local.sh
 ```
+
+## Visitor analytics
+
+GoatCounter collects statistics at <https://ruurdkuiper.goatcounter.com>.
+There is no public counter or embedded dashboard. Tracking loads only for
+production builds on `ruurdkuiper.com` and `www.ruurdkuiper.com`; local builds and
+the design previews are excluded. GitHub Pages uses production builds. For a
+manual deployment, build with `JEKYLL_ENV=production bundle exec jekyll build`.
+
+In GoatCounter settings, set **Dashboard viewable by** to **logged in users**.
+Keep collection of individual pageviews disabled, and enable location collection
+for country statistics. These are account settings, not controlled by this repo.
+
+To exclude your own visits after deployment, open
+<https://ruurdkuiper.com/#toggle-goatcounter> and confirm that the popup says your
+browser is blocked. Reload if no popup appears. Repeat on each browser/device
+you use, and after clearing site storage. The link toggles exclusion, so opening
+it again may re-enable counting. Alternatively, configure **Ignore IPs** in
+GoatCounter's tracking settings (IP changes require updating that list).
+
+Verify new visits appear while signed in to GoatCounter, and that the dashboard
+does not reveal statistics in a signed-out private window. Ad blockers may block
+analytics, so counts are approximate. The visitor-facing notice is at `/privacy/`.

@@ -8,6 +8,11 @@ url: "https://ruurdkuiper.com"
 baseurl: ""
 repository: "RuurdKuiper/homepage"
 
+analytics:
+  provider: "goatcounter"
+  goatcounter:
+    endpoint: "https://ruurdkuiper.goatcounter.com/count"
+
 author:
   avatar: "Ruurd.jpeg"
   name: "Ruurd Kuiper"
