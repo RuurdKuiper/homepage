@@ -27,16 +27,18 @@ I am an Assistant Professor in AI and NLP for Healthcare at UMC Utrecht. My work
 
 ## News
 
-### AAP workshop — Sunday, 18 October 2026
+### BYOD: Build Your Own DLM — on arXiv, 30 October 2026
 
-Together with [Robert Bagheri](https://robertab.nl/), I am hosting the [**Alternative Architectures and Paradigms**](https://aap-inlg.github.io/) workshop at INLG 2026 on **Sunday, 18 October 2026**, at the **Spoorwegmuseum in Utrecht**. Join us to explore what comes next for language generation, with a keynote by Chen Shani and six accepted-paper presentations. The workshop runs from **13:00 to 16:30**, with lunch available from **12:00**. [View the program](https://aap-inlg.github.io/program/) and [register through INLG](https://2026.inlgmeeting.org/registration.html).
-
-### BYOD: Build Your Own DLM — preliminary demos
+My latest paper with Robert A. Bagheri, **BYOD: Build Your Own DLM - Efficient Autoregressive-to-Diffusion Language Model Conversion**, is now available as an arXiv preprint.
 
 {% assign byod = site.data.projects | where: 'id', 'byod' | first %}
 {{ byod.summary }}
 
-{% for demo in byod.links %}[{{ demo.label }}]({{ demo.url }}){% unless forloop.last %} · {% endunless %}{% endfor %}
+{% for link in byod.links %}[{{ link.label }}]({{ link.url }}){% unless forloop.last %} · {% endunless %}{% endfor %}
+
+### AAP workshop — 18 October 2026
+
+Together with [Robert Bagheri](https://robertab.nl/), I hosted the [**Alternative Architectures and Paradigms**](https://aap-inlg.github.io/) workshop at INLG 2026 on **18 October 2026**, at the **Spoorwegmuseum in Utrecht**. The program explored what comes next for language generation, with a keynote by Chen Shani and six accepted-paper presentations. [View the program](https://aap-inlg.github.io/program/).
 
 ## Research interests
 

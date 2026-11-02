@@ -4,12 +4,19 @@
   category: Academic
   image: "/images/projects/byod.png"
   alt: 'BYOD: four language model families adapted for diffusion generation'
-  summary: A preliminary project exploring parameter-efficient conversion of existing
-    autoregressive language models into diffusion language models using LoRA adapters.
-    Try iterative, parallel text generation with conversions of Gemma 2 9B, Llama
-    3.1 8B, Qwen2.5 7B, and Ministral 8B in four interactive demos.
+  summary: BYOD converts existing autoregressive language models into diffusion language
+    models using only LoRA adapters, keeping the base weights frozen. The same recipe
+    works across Gemma 2 9B, Llama 3.1 8B, Qwen2.5 7B, and Ministral 8B, with each
+    conversion taking 3.1–4.0 hours on a single GPU. Read the arXiv preprint, explore
+    the training and evaluation code, or try the four interactive demos.
   featured: true
   links:
+  - label: Paper
+    url: https://arxiv.org/html/2610.41574v1
+    style: btn--success
+  - label: GitHub
+    url: https://github.com/RuurdKuiper/BYOD
+    style: btn--primary
   - label: Gemma demo
     url: https://huggingface.co/spaces/Ruurd/byod-gemma-2-9b
     style: btn--warning

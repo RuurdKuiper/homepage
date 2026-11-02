@@ -1,7 +1,7 @@
 {% if jekyll.environment == "production" and site.analytics.goatcounter.endpoint %}
 <script>
   (function () {
-    // Keep local builds, alternate hosts, and design previews out of the statistics.
+    /* Keep local builds, alternate hosts, and design previews out of the statistics. */
     if (window.location.hostname !== 'ruurdkuiper.com' && window.location.hostname !== 'www.ruurdkuiper.com') return;
     if (window.location.pathname.indexOf('/preview/') === 0) return;
 

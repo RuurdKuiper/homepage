@@ -4,6 +4,7 @@ For citation metrics and additional records, see my [Google Scholar profile](htt
 
 ### 2026
 
+- **BYOD: Build Your Own DLM - Efficient Autoregressive-to-Diffusion Language Model Conversion**. **Kuiper RJA**, Bagheri RA. *arXiv:2610.41574*, 2026. [arXiv](https://arxiv.org/html/2610.41574v1) · [Code](https://github.com/RuurdKuiper/BYOD) **(Preprint)**
 - **Natural language processing and language models for Dutch clinical text: a systematic review**. **Kuiper RJA**\*, Leeuwenberg AM\*. Zenodo, 2026. \*Shared first authors. [Zenodo](https://zenodo.org/records/23338060) **(Submitted)**
 - **Progression of bone and joint space deformity in patients with mild knee osteoarthritis: Data from the IMI-APPROACH cohort**. Nguyen HC, Bax E, Custers RJH, van Egmond N, **Kuiper RJA**, et al. *Osteoarthritis and Cartilage Open*, 8(2), 100762, 2026. [DOI](https://doi.org/10.1016/j.ocarto.2026.100762)
 - **Development and validation of AI-assisted generation of anesthesiology preoperative consultation summaries**. **Kuiper RJA**, Wolters EJ, de Vries S, Erler NS, van Smeden M, Kant IMJ, Marsman MM. Zenodo, 2026. [Zenodo](https://zenodo.org/records/22208035) **(Preprint)**
